@@ -1,0 +1,89 @@
+
+
+@font-face {
+    font-family: 'IBMPlexSansThin';
+    src: url('Fonts/IBM_Plex_Sans/IBMPlexSans-Thin.ttf');
+}
+@font-face {
+    font-family: 'IBMPlexSansRegular';
+    src: url('Fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf')
+}
+@font-face {
+    font-family: 'IBMPlexSansBoldItalic';
+    src: url('Fonts/IBM_Plex_Sans/IBMPlexSans-BoldItalic.ttf')
+}
+@font-face {
+    font-family: 'IBMPlexSansSemiBold';
+    src: url('Fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf')
+}
+
+@font-face {
+    font-family: 'IBMPlexSansMedium';
+    src: url('Fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf')
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.HeaderPara {
+    position: relative;
+}
+
+.onTopHeaderPara{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: IBMPlexSansThin;
+    font-size: 60px;
+    text-align: center;
+    width:100%;
+}
+
+.scrollDownButton{
+    position: absolute;
+    top: 90%;
+    left: 10%; 
+}
+.scrollDownButtonText{
+    color:white;
+    font-family: IBMPlexSansSemiBold;
+    transform: rotate(-90deg);
+    position: relative;
+    top: -85px;
+    right: 55px;
+}
+
+
+
+.Paradigm{
+    background-image: url('Images/Paradigm Shift.png');
+    background-repeat: no-repeat;
+    height:1160px;
+    width:100%;
+    background-size:100%;
+    background-position: bottom; 
+}
+.Paradigm_text{
+    font-family: IBMPlexSansRegular;
+}
+
+.spliterText{
+    font-family: IBMPlexSansRegular;
+}
+
+.textendPage{
+    font-family: IBMPlexSansSemiBold;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .ImagewithButton{
+        width:100vw;
+    }
+    .Paradigm{
+        height: 850px;
+    }
+}

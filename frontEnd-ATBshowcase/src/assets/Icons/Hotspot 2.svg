@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Hotspot 2</title>
+    <defs>
+        <circle id="path-1" cx="45" cy="45" r="25.1351351"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ATB-Showcase" transform="translate(-650.000000, -3393.000000)" fill-rule="nonzero">
+            <g id="360-Marketplace" transform="translate(0.000000, 3129.051388)">
+                <g id="Hotspot-2" transform="translate(660.000000, 273.948612)">
+                    <g id="Oval">
+                        <use stroke="#FFFFFF" stroke-width="13" fill="#FFFFFF" xlink:href="#path-1"></use>
+                        <use stroke="#DC0000" stroke-width="3" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group-3">
+                        <circle id="Oval-Copy-11" stroke="#FFFFFF" stroke-width="10" opacity="0.26436942" style="mix-blend-mode: normal;" cx="45" cy="45" r="50"></circle>
+                        <circle id="Oval-Copy-11" stroke="#FFFFFF" stroke-width="0.5" cx="45" cy="45" r="40.9303534"></circle>
+                        <path d="M83.0831389,29.971221 C77.0919098,14.8017692 62.2992657,4.06964657 45,4.06964657" id="Oval-Copy-12" stroke="#DC0000" stroke-width="7"></path>
+                    </g>
+                    <line x1="45" y1="30.4054054" x2="45" y2="59.5945946" id="Line" stroke="#DC0000" stroke-width="3" stroke-linecap="square"></line>
+                    <line x1="45" y1="30.2027027" x2="45" y2="59.3918919" id="Line-Copy" stroke="#DC0000" stroke-width="3" stroke-linecap="square" transform="translate(45.000000, 44.797297) rotate(-270.000000) translate(-45.000000, -44.797297) "></line>
+                    <polygon id="Star" fill="#FFFFFF" points="34.8648649 52.5 33.1583036 54.3902736 33.2882079 51.8469273 30.7448615 51.9768315 32.6351351 50.2702703 30.7448615 48.563709 33.2882079 48.6936133 33.1583036 46.1502669 34.8648649 48.0405405 36.5714261 46.1502669 36.4415219 48.6936133 38.9848682 48.563709 37.0945946 50.2702703 38.9848682 51.9768315 36.4415219 51.8469273 36.5714261 54.3902736"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

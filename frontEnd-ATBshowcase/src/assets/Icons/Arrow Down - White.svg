@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Arrow Down - White</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ATB-Showcase" transform="translate(-120.000000, -710.000000)">
+            <g id="Group-3" transform="translate(120.000000, 611.000000)">
+                <g id="Arrow-Down---White" transform="translate(0.000000, 99.000000)">
+                    <path d="M19.75,19.5 L25,10.5 L30.25,19.5 L26,19.5 L26,39.5 L24,39.5 L24,19.5 L19.75,19.5 Z" id="Triangle-2" fill="#FFFFFF" transform="translate(25.000000, 25.000000) rotate(-180.000000) translate(-25.000000, -25.000000) "></path>
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="2" cx="25" cy="25" r="24"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

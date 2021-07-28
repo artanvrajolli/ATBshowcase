@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <div style="background-image: url('assets/Images/Header Para.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;">
+      <div class="row justify-content-center pt-4">
+       
+          <div class="col-md-5 col-sm-12 text-end my-auto">
+            <img  src="assets/Icons/s&s_Logo.svg"/>
+          </div>
+          <div class="col-1 display-4 text-center">
+            X
+          </div>
+          <div class="col-md-5 col-sm-12 my-auto">
+            <img src="assets/Icons/logo_oewerbung-Black.png"/>
+          </div>
+       
+      </div>
+      <img src="assets/Images/Header Para.jpg" style="visibility: hidden;" />
+
+      <div class="row justify-content-between pb-4 px-5">
+        <div class="col-2 justify-content-center d-flex pb-4">
+          <a href="#text_end_page">
+            <img src="assets/Icons/Arrow Down - White.svg">
+          </a>
+            <span class="scrollDownButtonText">Scroll Down</span>
+        </div>
+        <div class="col-2 justify-content-center d-flex pb-4">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://example.com/" target="_blank">
+            <span style="visibility:hidden;">Share share</span><img src="assets/Icons/Share - White.svg">
+          </a>
+        </div>
+      </div>
+
+    
+    </div>
+      <div class="Paradigm">
+         <div class="container">
+          <div class="row">
+              <div class="col-sm-6 d-flex justify-content-center">
+                      <div class="mt-5 p-5">
+                          <h1 class="Paradigm_text" id="paradigm_h1"> </h1>
+                          <p class="Paradigm_text" id="paradigm_paragraph">
+                          </p>
+                      </div>
+              </div>
+              <div class="col-sm-6 mt-5">
+                  <img class="ImagewithButton" src="assets/Images/Hotspot.png">
+              </div>
+          </div>
+         </div>
+      </div>
+      <div class="slideImages">
+          <div class="row">
+              <div class="col-md-7 col-sm-12 justify-content-end d-flex">
+                  <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                          <img src="assets/Images/Slider Images/Culinary.jpg" class="d-block w-100" >
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Culinary</h5>
+                          </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <img src="assets/Images/Slider Images/Feel.jpg" class="d-block w-100" >
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Feel</h5>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/Images/Slider Images/Keynote.jpg" class="d-block w-100" >
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Keynote</h5>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/Images/Slider Images/Movement.jpg" class="d-block w-100" >
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Movement</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <button id="previousButtonSlide" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button id="nextButtonSlide" class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+              </div>
+              <div class="col-md-5 col-sm-12 px-5">
+                  <h1 id="slide_title"></h1>
+                  <p class="row d-flex mt-4">
+                      <img (click)="previousSlide()" style="width:10vh; transform: rotate(180deg);" src="assets/Icons/Arrow Right - Black.svg">
+                      <img (click)="nextSlide()" style="width:10vh" src="assets/Icons/Arrow Right - Black.svg">
+                  </p>
+              </div>
+          </div>
+      </div>
+      <div class="spliterText">
+          <div class="row justify-content-center p-5" style="text-align: center;">
+              <div class="col-sm-6 p-5" style="text-align:left;" id="spliter_left_text"></div>
+              <div class="col-sm-6 p-5" style="text-align:left;" id="spliter_right_text"></div>
+          </div>
+          <div class="textendPage justify-content-center d-flex mb-4">
+              <p class="w-50" id="text_end_page"></p>
+          </div>
+      </div>
+  
+  </div>
+  
+  </body>
+</html>
